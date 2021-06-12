@@ -1,0 +1,39 @@
+__    __    __  __  __    __    __  _____  __
+\ \  /  \  / / / / / /   / /   /_/ / _  / /_/
+ \ \/ /\ \/ / / / / /__ / /__     / // /
+  \__/  \__/ /_/ /____//____/    /____/
+
+Name :
+	xor.py - Decrypt or Encrypt an xor cipher message
+
+Synopsis:
+	xor.py -m (the message) -k (the key) -o (the type of output int , hex , ascii , bin)
+
+Input :
+	-m      allows you to specify the message to decrypt (if there is space between the characters you must use quotation mark)
+	
+	-k      specify the key for decrypt the message the key can be larger and smaller than the message !
+
+	-fm     you can use file to specify the message but it only decrypt the content of the file !
+
+	-fk     same for the key use a file for specify it !
+
+	note :  you can use all of this type in input : bin , int , hex and  ascii
+output :
+
+	-o      it is a very simple use just pass in argument after -o the type of output
+	
+	ps :    for redirect the output of this command use '>' and the file where you want to save the output !
+
+format of input :
+
+	normally the format of input is recognized automatically but if there is some ambiguity you can specify it !
+
+	exemple : ascii (face)  / hex (face) == int(64206) or 
+		int(1010) / bin (1010) = int(10)
+
+	-mt     specify the type of the message work also with file
+
+	-kt     specify the type of the key work also with file 
+
+	
